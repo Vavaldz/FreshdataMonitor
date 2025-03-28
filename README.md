@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Utilisation
-1. Lancer `FRESHDATA_CONNEXION.py` pour démarrer l'application
+1. Lancer `main.py` pour démarrer l'application
 2. Se connecter avec les identifiants suivant pour se connecter en tant que prof (ID = admin ; password = "1234")
 3. Accéder aux différentes fonctionnalités via le menu
 

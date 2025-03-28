@@ -1,0 +1,4 @@
+Le fichier main.py est le fichier qui permet de lancer l'application avec la popup de connexion.
+Une fois connecté le fichier application.py se lance => c'est l'application principale
+le fichier popupAdmin.py est ouvert par application.py quand on veut accéder au menu Admin
+Le fichier create_db_chambre.py permet de creer une base de donnée si vous voulez creer la votre.
