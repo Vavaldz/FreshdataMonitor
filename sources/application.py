@@ -157,8 +157,7 @@ def enregistrer(ety_value_temp, cbx_choice_chart_save):
 def delete_last_entry():
     """Supprime la dernière entrée de température dans la base de données"""
     try:
-        connection = sqlite3.connect("../"
-        "data/db/freshdata.db")
+        connection = sqlite3.connect("data/db/freshdata.db")
         cursor = connection.cursor()
         # Récupérer la dernière entrée pour vérification
         cursor.execute("SELECT date, numero_chambre, temperature, prenom, classe FROM chambre ORDER BY date DESC LIMIT 1")
@@ -355,7 +354,7 @@ def csv_files_create(filename):
 def settings_page():
     """Ouvre la page des paramètres administrateur"""
     try:
-        os.system('python "code/FRESHDATA_ADMIN_CONNEXION.py"')
+        os.system('python "sources/popupAdmin.py"')
     except:
         return messagebox.showerror('Erreur', 'Erreur de connexion au fichier de connexion')
     settings_page_fm = tk.Frame(page_frame)

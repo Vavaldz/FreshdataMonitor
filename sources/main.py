@@ -2,7 +2,7 @@
 FRESHDATA CONNEXION - Module d'authentification
 ===============================================
 
-Ce script gère l'interface de connexion pour l'application FRESHDATA MONITOR.
+Ce script gère l'interface de connexion pour l'application FRESHDATA MONITOR(main.py).
 Il permet aux professeurs et aux élèves de se connecter avec des identifiants différents.
 """
 
@@ -40,7 +40,7 @@ def connexion():
         
         # Ferme la page de connexion et lance l'application principale
         pageConnexion.destroy()
-        os.system('python "code/FRESHDATA_MONITOR.py"')
+        os.system('python "sources/application.py"')
     else:
         # Vérification que tous les champs sont remplis
         if not ety_id.get() or not ety_password.get():
@@ -70,7 +70,7 @@ def connexion():
                 
                 # Ferme la page de connexion et lance l'application principale
                 pageConnexion.destroy()
-                os.system('python "code/FRESHDATA_MONITOR.py"')
+                os.system('python "sources//application.py"')
 
 # ====== CRÉATION DE L'INTERFACE GRAPHIQUE ======
 # Configuration de la fenêtre principale

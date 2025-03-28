@@ -2,7 +2,7 @@
 FRESHDATA ADMIN CONNEXION - Module d'authentification administrateur
 ===================================================================
 
-Ce programme est appelé par FRESHDATA_MONITOR et permet de vérifier
+Ce programme est appelé par main.py et permet de vérifier
 les identifiants administrateur avant d'accéder aux menu admin.
 """
 
