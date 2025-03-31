@@ -1,5 +1,9 @@
 # FRESHDATA MONITOR
 
+<div align="center">
+  <img src="data/image/fdm.jpg" alt="Logo FreshData Monitor" width="200"/>
+</div>
+
 ## Description
 FRESHDATA MONITOR est une application développée pour le LEA Robert Doisneau (Saint-Lô) permettant le suivi des températures des chambres froides de la cuisine et la centralisation des données d'hygiène.
 
